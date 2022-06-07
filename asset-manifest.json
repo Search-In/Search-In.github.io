@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12cfef42.css",
-    "main.js": "/static/js/main.c37479a6.js",
+    "main.js": "/static/js/main.a10bdc8c.js",
     "static/media/new_skills.jpg": "/static/media/new_skills.be916eba97814d2c03bc.jpg",
     "static/media/learn.jpg": "/static/media/learn.16ad47facee9bf482e8e.jpg",
     "static/media/flexible_time.jpg": "/static/media/flexible_time.39d2e32f2dc92da0b2a9.jpg",
@@ -9,10 +9,10 @@
     "static/media/Search-In_Logo_Black.png": "/static/media/Search-In_Logo_Black.3c4db54682040bdbdbfb.png",
     "index.html": "/index.html",
     "main.12cfef42.css.map": "/static/css/main.12cfef42.css.map",
-    "main.c37479a6.js.map": "/static/js/main.c37479a6.js.map"
+    "main.a10bdc8c.js.map": "/static/js/main.a10bdc8c.js.map"
   },
   "entrypoints": [
     "static/css/main.12cfef42.css",
-    "static/js/main.c37479a6.js"
+    "static/js/main.a10bdc8c.js"
   ]
 }
