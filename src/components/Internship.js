@@ -23,7 +23,7 @@ const Internship = () => {
                 <div className="card1" data-label="coming soon...">
                     <p class="card__container">
                         <a href="#" class="card__header">
-                            Social Media Marketing
+                            Social Media Marketing Test
                         </a>
                     </p>
                 </div>
