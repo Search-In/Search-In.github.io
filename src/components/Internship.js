@@ -8,14 +8,14 @@ const Internship = () => {
 
                 <div>
                     <p class="card__container">
-                        <a href="#" class="card__header">
+                        <a href="https://forms.gle/HjtTgQArXUtcn5RT6" class="card__header">
                             Web Development
                         </a>
                     </p>
                 </div>
                 <div>
                     <p class="card__container">
-                        <a href="#" class="card__header">
+                        <a href="https://forms.gle/HjtTgQArXUtcn5RT6" class="card__header">
                             Android Development
                         </a>
                     </p>
