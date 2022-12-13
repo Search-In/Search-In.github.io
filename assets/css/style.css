@@ -899,7 +899,7 @@ section {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background: rgba(17, 17, 17, 0.6);
+    background: rgb(0 0 0 / 0%);
 }
 
 .portfolio .portfolio-wrap::before {
