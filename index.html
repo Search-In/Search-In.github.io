@@ -1246,26 +1246,26 @@
                         <div class="col-lg-3 col-md-6 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Testimonials</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Portfolio</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#testimonials">Testimonials</a></li>
                             </ul>
                         </div>
 
                         <div class="col-lg-3 col-md-6 footer-links">
                             <h4>Our Services</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">App Development</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_web.html">Web Development</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_app.html">App Development</a></li>
                                 <li>
-                                    <i class="bx bx-chevron-right"></i> <a href="#">Digital & Social Media Marketing</a>
+                                    <i class="bx bx-chevron-right"></i> <a href="service_digital_mark.html">Digital & Social Media Marketing</a>
                                 </li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Cloud Services</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">UI/UX Design</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Ecommerce Store Setup</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">AI and ML Projects</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_cloud.html">Cloud Services</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_ui.html">UI/UX Design</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_e_store.html">Ecommerce Store Setup</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_ai_ml.html">AI and ML Projects</a></li>
                             </ul>
                         </div>
 
@@ -1343,5 +1343,30 @@
                 });
             });
         </script>
+
+        <!-- Firebase -->
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyA7A2vwbZ0fQisRPcltWLzb7epMjhuI14Q",
+              authDomain: "searchin-tech-web.firebaseapp.com",
+              projectId: "searchin-tech-web",
+              storageBucket: "searchin-tech-web.appspot.com",
+              messagingSenderId: "12955813621",
+              appId: "1:12955813621:web:59764833963da18c57e7bc",
+              measurementId: "G-99ZRCV00QK"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
     </body>
 </html>
