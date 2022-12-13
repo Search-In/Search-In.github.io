@@ -1492,6 +1492,16 @@ section {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .add-info-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .add-info-2 div {
+        width: 100%;
+    }
+}
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
@@ -2224,7 +2234,7 @@ section {
     color: #1363df;
 }
 
-.service-details > .faq {
+.service-details .faq {
     width: 60%;
     margin: auto;
 }
@@ -2249,9 +2259,9 @@ section {
         text-align: center;
         margin-top: 150px;
     }
-    .service-details > .faq {
-        width: 90%;
-        margin: auto;
+    .faq {
+        width: 90% !important;
+        margin: auto !important;
     }
 }
 
