@@ -9,8 +9,11 @@
         <meta content="" name="keywords" />
 
         <!-- Favicons -->
-        <link href="assets/img/favicon.png" rel="icon" />
+        <link href="assets/img/favicon.ico" rel="icon" />
         <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
         <!-- Google Fonts -->
         <link
@@ -32,11 +35,20 @@
     </head>
 
     <body>
+        <!-- {/* WhatsApp icon */} -->
+        <a href="https://wa.me/919822221876" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-whatsapp whatsapp-icon"></i>
+        </a>
+        <a href="tel:9822221876" class="call_float" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-phone call-icon"></i>
+        </a>
+
         <!-- ======= Header ======= -->
         <header id="header" class="fixed-top d-flex align-items-center">
             <div class="container d-flex align-items-center">
                 <h1 class="logo me-auto">
-                    <a href="index.html">Search-In<span>.</span></a>
+                    <img src="assets/img/favicon.ico" alt="" />
+                    <a href="index.html"><u>Sea</u>rch-In<span>.</span></a>
                 </h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
@@ -44,24 +56,24 @@
                 <nav id="navbar" class="navbar order-last order-lg-0">
                     <ul>
                         <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-                        <li><a class="nav-link scrollto" href="index.html #about">About</a></li>
+                        <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
                         <!-- <li><a href="blog.html">Blog</a></li> -->
                         <li class="dropdown">
-                            <a href="index.html #services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                            <a href="index.html#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">App Development</a></li>
-                                <li><a href="#">Digital & Social Media Marketing</a></li>
-                                <li><a href="#">Cloud Services</a></li>
-                                <li><a href="#">UI/UX Design</a></li>
-                                <li><a href="#">Ecommerce Store Setup</a></li>
-                                <li><a href="#">AI and ML Learning</a></li>
-                                <li><a href="#">Help & Support</a></li>
+                                <li><a href="service_web.html">Web Development</a></li>
+                                <li><a href="service_app.html">App Development</a></li>
+                                <li><a href="service_digital_mark.html">Digital & Social Media Marketing</a></li>
+                                <li><a href="service_cloud.html">Cloud Services</a></li>
+                                <li><a href="service_ui.html">UI/UX Design</a></li>
+                                <li><a href="service_e_store.html">Ecommerce Store Setup</a></li>
+                                <li><a href="service_ai_ml.html">AI and ML projects</a></li>
+                                <li><a href="service_help_support.html">Technical Consulting</a></li>
                             </ul>
                         </li>
-                        <li><a class="nav-link scrollto" href="index.html #portfolio">Projects</a></li>
-                        <li><a class="nav-link scrollto" href="index.html #testimonials">Testimonials</a></li>
-                        <li><a class="nav-link scrollto" href="index.html #contact">Contact</a></li>
+                        <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link scrollto" href="index.html#testimonials">Testimonials</a></li>
+                        <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
@@ -308,28 +320,26 @@
                         <div class="col-lg-3 col-md-6 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Projects</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Testimonials</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Portfolio</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html#testimonials">Testimonials</a></li>
                             </ul>
                         </div>
 
                         <div class="col-lg-3 col-md-6 footer-links">
                             <h4>Our Services</h4>
                             <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_web.html">Web Development</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_app.html">App Development</a></li>
                                 <li>
-                                    <i class="bx bx-chevron-right"></i> <a href="Services/web.html">Web Development</a>
+                                    <i class="bx bx-chevron-right"></i> <a href="service_digital_mark.html">Digital & Social Media Marketing</a>
                                 </li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">App Development</a></li>
-                                <li>
-                                    <i class="bx bx-chevron-right"></i> <a href="#">Digital & Social Media Marketing</a>
-                                </li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Cloud Services</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">UI/UX Design</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Ecommerce Store Setup</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">AI and ML Learning</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_cloud.html">Cloud Services</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_ui.html">UI/UX Design</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_e_store.html">Ecommerce Store Setup</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="service_ai_ml.html">AI and ML Projects</a></li>
                             </ul>
                         </div>
 
