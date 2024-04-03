@@ -9,7 +9,7 @@
 
 <channel>
 	<title>front &#8211; Searchin</title>
-	<atom:link href="https://tejaltarde.github.io/Project.github.io///category/front/feed" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tejaltarde.github.io/Project.github.io///category/front/feed/" rel="self" type="application/rss+xml" />
 	<link>https://tejaltarde.github.io/Project.github.io//</link>
 	<description></description>
 	<lastBuildDate>Sat, 09 Mar 2024 05:48:26 +0000</lastBuildDate>
@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>Enterprise Application Integration – Connecting Businesses Digitally</title>
-		<link>https://tejaltarde.github.io/Project.github.io///web-2</link>
+		<link>https://tejaltarde.github.io/Project.github.io///web-2/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sun, 03 Mar 2024 06:21:21 +0000</pubDate>
@@ -352,7 +352,7 @@ These enterprise integration models address diverse business requirements and co
 			</item>
 		<item>
 		<title>Node.js Performance: Best Ways to Notch Up the Application Speed</title>
-		<link>https://tejaltarde.github.io/Project.github.io///web</link>
+		<link>https://tejaltarde.github.io/Project.github.io///web/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sun, 03 Mar 2024 04:14:27 +0000</pubDate>

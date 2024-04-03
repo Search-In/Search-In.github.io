@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Uncategorized &#8211; Searchin</title>
-	<atom:link href="https://tejaltarde.github.io/Project.github.io///category/uncategorized/feed" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tejaltarde.github.io/Project.github.io///category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>https://tejaltarde.github.io/Project.github.io//</link>
 	<description></description>
 	<lastBuildDate>Tue, 02 Apr 2024 17:53:52 +0000</lastBuildDate>
@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>Revolutionizing Skill Development: A Journey Towards Career Advancement</title>
-		<link>https://tejaltarde.github.io/Project.github.io///revolutionizing-skill-development-a-journey-towards-career-advancement</link>
+		<link>https://tejaltarde.github.io/Project.github.io///revolutionizing-skill-development-a-journey-towards-career-advancement/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 02 Apr 2024 13:29:30 +0000</pubDate>
@@ -373,8 +373,8 @@ The road to career advancement is fraught with challenges, but it is also brimmi
 			</item>
 		<item>
 		<title>Simplifying sucess</title>
-		<link>https://tejaltarde.github.io/Project.github.io///simplifying-sucess</link>
-					<comments>https://tejaltarde.github.io/Project.github.io///simplifying-sucess#respond</comments>
+		<link>https://tejaltarde.github.io/Project.github.io///simplifying-sucess/</link>
+					<comments>https://tejaltarde.github.io/Project.github.io///simplifying-sucess/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 02 Apr 2024 13:00:41 +0000</pubDate>
@@ -384,15 +384,15 @@ The road to career advancement is fraught with challenges, but it is also brimmi
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>https://tejaltarde.github.io/Project.github.io///simplifying-sucess/feed</wfw:commentRss>
+					<wfw:commentRss>https://tejaltarde.github.io/Project.github.io///simplifying-sucess/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Expaning address acess limited payment</title>
-		<link>https://tejaltarde.github.io/Project.github.io///expaning-address-acess-limited-payment</link>
-					<comments>https://tejaltarde.github.io/Project.github.io///expaning-address-acess-limited-payment#respond</comments>
+		<link>https://tejaltarde.github.io/Project.github.io///expaning-address-acess-limited-payment/</link>
+					<comments>https://tejaltarde.github.io/Project.github.io///expaning-address-acess-limited-payment/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Mon, 01 Apr 2024 16:56:20 +0000</pubDate>
@@ -730,14 +730,14 @@ The e-commerce platform took a proactive approach to address the issue of limite
 							</div>
 		]]></content:encoded>
 					
-					<wfw:commentRss>https://tejaltarde.github.io/Project.github.io///expaning-address-acess-limited-payment/feed</wfw:commentRss>
+					<wfw:commentRss>https://tejaltarde.github.io/Project.github.io///expaning-address-acess-limited-payment/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>UI/UX Application Modernization: Delivering Exceptional Experiences</title>
-		<link>https://tejaltarde.github.io/Project.github.io///ui-ux-application-modernization-delivering-exceptional-experiences</link>
+		<link>https://tejaltarde.github.io/Project.github.io///ui-ux-application-modernization-delivering-exceptional-experiences/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 07 Mar 2024 10:03:02 +0000</pubDate>
@@ -1053,7 +1053,7 @@ Uber therefore made the decision to move to service-oriented architecture (SOA).
 			</item>
 		<item>
 		<title>Google Bard vs ChatGPT: A Comparative Analysis</title>
-		<link>https://tejaltarde.github.io/Project.github.io///google-bard-vs-chatgpt-a-comparative-analysis</link>
+		<link>https://tejaltarde.github.io/Project.github.io///google-bard-vs-chatgpt-a-comparative-analysis/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 07 Mar 2024 07:50:44 +0000</pubDate>
@@ -1343,7 +1343,7 @@ Our skilled development team and AI specialists can provide unique AI plugins th
 			</item>
 		<item>
 		<title>Revolutionizing Recruitment: How Search-In Transforms Hiring Process</title>
-		<link>https://tejaltarde.github.io/Project.github.io///revolutionizing-recruitment-how-search-in-transforms-hiring-process</link>
+		<link>https://tejaltarde.github.io/Project.github.io///revolutionizing-recruitment-how-search-in-transforms-hiring-process/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 16 Jan 2024 08:15:43 +0000</pubDate>
