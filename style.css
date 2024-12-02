@@ -38,6 +38,14 @@
   --ratio: calc(var(--custom-width) / var(--design-width));
 }
 
+/* Add this to your CSS file */
+.click-effect {
+  transform: scale(0.95);
+  opacity: 0.9;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+
 /* Default classes */
 .pos-abs {
   position: absolute;
