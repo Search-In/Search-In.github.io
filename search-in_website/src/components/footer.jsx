@@ -1,7 +1,8 @@
 import React from "react";
-import facebook from "../images/image13.png"
-import insta from "../images/image14.png"
-import twitter from "../images/image15.png"
+import facebook from "../images/image13.png";
+import insta from "../images/image14.png";
+import twitter from "../images/image15.png";
+
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-10 w-full">
@@ -42,19 +43,19 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-center md:text-left">
           <p>Search-In Estore</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-gray-400">Terms</a>
-            <a href="#" className="hover:text-gray-400">Privacy</a>
-            <a href="#" className="hover:text-gray-400">Cookies</a>
+            <a href="/terms" className="hover:text-gray-400">Terms</a>
+            <a href="/privacy" className="hover:text-gray-400">Privacy</a>
+            <a href="/cookies" className="hover:text-gray-400">Cookies</a>
           </div>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-white text-xl hover:text-gray-400">
-              <img src= {facebook} alt="Facebook" className="w-6 h-6" />
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-gray-400">
+              <img src={facebook} alt="Facebook" className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white text-xl hover:text-gray-400">
-              <img src= {insta} alt="Instagram" className="w-6 h-6" />
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-gray-400">
+              <img src={insta} alt="Instagram" className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white text-xl hover:text-gray-400">
-              <img src= {twitter} alt="Twitter" className="w-6 h-6" />
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-gray-400">
+              <img src={twitter} alt="Twitter" className="w-6 h-6" />
             </a>
           </div>
         </div>
