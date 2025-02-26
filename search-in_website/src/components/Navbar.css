@@ -1,0 +1,127 @@
+Navbar Container
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0E749A;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Styles */
+  .navbar__logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Menu Container */
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  /* Navigation Links */
+  .navbar__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__link:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Contact Button */
+  .navbar__contact-btn {
+    background-color: white;
+    color: #0E749A;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar__contact-btn:hover {
+    background-color: #0E749A;
+  }
+  
+  /* Hamburger Menu Button */
+  .navbar__toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .navbar__toggle:focus {
+    outline: none;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .navbar__menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #0E749A;
+      flex-direction: column;
+      padding: 1rem;
+      gap: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navbar__menu.active {
+      display: flex;
+    }
+  
+    .navbar__toggle {
+      display: block;
+    }
+  
+    .navbar__link {
+      padding: 0.5rem 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar__contact-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  /* Animation for Mobile Menu */
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar__menu.active {
+    animation: slideDown 0.3s ease forwards;
+  }
