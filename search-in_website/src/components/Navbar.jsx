@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
-
+import logo from "../images/logo.png";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -9,11 +9,10 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center px-6 md:px-10">
         {/* Left side - Logo */}
         <div>
-          <a href="/" className="text-white text-2xl font-bold">
-            Search-In Estore
-          </a>
+         <a href="/" className="flex items-center space-x-2">
+          <img src={logo} alt="Search-In Logo" className="h-10 w-auto" />
+         </a>
         </div>
-
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-white text-2xl">

@@ -5,28 +5,28 @@ const Resolution = () => {
     <section className="bg-black min-h-screen text-white flex items-center justify-center py-16 px-6">
       <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left Section - Text */}
-        <div className="lg:w-1/2 w-full text-left space-y-6">
-        <h1 className="text-[50px] md:text-[60px] lg:text-[65px] font-bold leading-tight">
-          Empowering Local <br className="hidden md:block" />
-          Supermarkets With <br className="hidden md:block" />
-          Quick-Comm Delivery
-        </h1>
+        <div className="lg:w-full text-left space-y-6">
+          <h1 className="text-[42px] sm:text-[48px] font-bold font-dm-sans leading-[55px] sm:leading-[69px]">
+            Revolutionizing Local Delivery <br className="hidden sm:block" />
+            With Lightning Speed!
+          </h1>
 
-        {/* Subtext */}
-        <p className="text-lg text-gray-200">
-          Now Your Neighborhood Supermarkets Are Quick-Comm Ready!
-        </p>
+          {/* Subtext */}
+          <p className="text-[18px] sm:text-[20px] font-[Plus Jakarta Sans] max-w-lg leading-relaxed text-gray-300">
+            Get Fresh, Local Groceries Delivered To Your Home In No Time— Bringing Convenience, Freshness, And Familiarity
+            <br className="hidden md:block" /> Right To Your Doorstep.
+          </p>
 
-        {/* Buttons */}
-        <a
-          href="https://wa.me/9822221876?text=Hi%20Team%20I'm%20inquiring%20about%20the%20Quick%20Commerce%20Setup%20for%20my%20supermarket"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-white text-black px-6 sm:px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition"
-        >
-          Get Started Today!
-        </a>
-      </div>
+          {/* Button */}
+          <a
+            href="https://wa.me/9822221876?text=Hi%20Team%20I'm%20inquiring%20about%20the%20Quick%20Commerce%20Setup%20for%20my%20supermarket"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-black px-6 sm:px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition"
+          >
+            Get Started Today!
+          </a>
+        </div>
 
         {/* Right Section - Floating Cards */}
         <div className="relative w-full max-w-[380px] h-[250px] flex justify-center">
